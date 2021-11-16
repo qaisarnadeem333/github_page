@@ -23,15 +23,19 @@ body{
 .fixed-header, .fixed-footer{
   width: 100%;
   position: fixed;        
-  background: #564B4B;
+  background: #34495E;
   padding: 10px 0;
   color: #fff;
+    text-align: center;
 }
 .fixed-header{
   top: 0;
 }
 .fixed-footer{
   bottom: 0;
+}    
+.fixed-footer .container{
+  text-align: center;
 }    
 /* Some more styles to beutify this example */
 nav a{
@@ -61,7 +65,7 @@ nav a{
 
 #showcase h1{
   -webkit-text-stroke: 3px #000; /* width and color */
-  font-size:100px;
+  font-size:70px;
   line-height:1.5;
 }
 
